@@ -25,3 +25,7 @@ Class someClass = Nil;
 Class anotherClass = [NSString class];
 ```
 - NSNull：是一个 OC 对象，是一个用于表示空值的类，一般用于在集合对象中保存一个空的占位对象。
+
+#### 引用：
+[Objective-C 中 NULL、nil、Nil、NSNull 的定义及不同
+](http://www.jianshu.com/p/5d7033b15052)

@@ -16,4 +16,5 @@
 * [杂记](za-ji.md)
 * [网络](network.md)
 * [runtime](runtime.md)
+* [小技巧](xiao-ji-qiao.md)
 

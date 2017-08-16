@@ -17,4 +17,5 @@
 * [网络](network.md)
 * [runtime](runtime.md)
 * [小技巧](xiao-ji-qiao.md)
+* [从哪几个方面学习技术](cong-na-ji-ge-fang-mian-xue-xi-ji-zhu.md)
 

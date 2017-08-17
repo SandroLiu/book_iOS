@@ -49,13 +49,15 @@ ___
 
 [简书](www.jianshu.com)
 
-
-
-
-
-
 | Tables        |Are            | Cool  | 
 | ------------- |:-------------:| -----:| 
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      | $12   | 
 | zebra stripes | are neat      | $1    |
+
+## 空格
+直接写
+半方大的空白&ensp;或&#8194;
+全方大的空白&emsp;或&#8195;
+不断行的空白格&nbsp;或&#160;
+切换到全角模式下（一般的中文输入法都是按 shift + space）输入两个空格就行了

@@ -8,18 +8,22 @@
 
 #### 创建桥接文件
 - 自动创建桥接文件，在OC工程中创建`Swift`文件会自动弹出创建桥接文件选项
-![](/assets/Snip20201104_2.png)
-![](/assets/Snip20201104_3.png)
+
+![](assets/Snip20201104_2.png)
+![](assets/Snip20201104_3.png)
 
 #### 使用
 - 在桥接文件中引用想要在`Swift`中使用的`OC`类
-![](/assets/Snip20201104_4.png)
+
+![](assets/Snip20201104_4.png)
+
 - 在`Swift`中使用OC类
-![](/assets/Snip20201104_5.png)
+
+![](assets/Snip20201104_5.png)
 
 ## OC文件中使用Swift
 
 - 在`OC`文件中引入`import "工程名-Swift.h"`，引入后直接使用`Swift`类后即可
-![](/assets/Snip20201104_8.png)
+![](assets/Snip20201104_8.png)
 
 - 注意工程名以`Swift`开头，引入`工程名-Swift.h`可能导致编译失败，

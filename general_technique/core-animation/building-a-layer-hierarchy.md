@@ -1,0 +1,2 @@
+#创建一个单独的layer
+使用bounds和position设置layer的位置和大小。使用整数设置宽高。父layer属性的设置也会影响子layer动画的行为，而且是一个倍数的影响。

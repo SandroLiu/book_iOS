@@ -6,6 +6,8 @@
     * [桥接](OC/bridge/README.md)
     * [宏](OC/macro/README.md)
 * [Swift语法知识](Swift/swift技术.md)
+    * [tips](Swift/chapter1.md)
+    * [函数](Swift/han-shu.md)
 * [通用技术](general_technique/通用技术.md)
     * [进制与位运算](general_technique/bitoperation/README.md)
     * [Core Text](general_technique/coretext/README.md)

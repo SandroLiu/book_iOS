@@ -18,7 +18,7 @@
 - CoreText 绘制的流程
 
 ![](../../images/Snip20170426_1.png)
-![](../images/Snip20170426_2.png)
+![](../../images/Snip20170426_2.png)
 - framesetter framesetter对应的类型是 CTFramesetter，通过CFAttributedString进行初始化，它作为CTFrame对象的生产工厂，负责根据path生产对应的CTFrame 
 - CTFrame 绘制的整个文本算作一个CTFrame CTFrame是可以通过CTFrameDraw函数直接绘制到context上的，当然你可以在绘制之前，操作CTFrame中的CTLine，进行一些参数的微调
     - CTFrame 内部有多个 CTLine 组成，每个 CTLine 代表一行，每个 CTLine 由多个 CTRun 组成，每个 CTRun 代表一组显示风格一致的文本。我们不用手工管理 CTLine 和 CTRun 的创建过程。

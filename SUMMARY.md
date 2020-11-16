@@ -26,6 +26,7 @@
         * [本地推送](general_technique/push/localnotification.md)
         * [远程推送](general_technique/push/remotenotification.md)
     * [内存管理](general_technique/MemoryManager/README.md)
+        * [内存问题](general_technique/MemoryManager//nei-cun-wen-ti.md)
 * [其他](Other/README.md)
     * [杂记](Other/za-ji.md)
     * [小技巧](Other/xiao-ji-qiao.md)
@@ -35,7 +36,7 @@
     * [常见问题](Other/chang-jian-wen-ti.md)
     * [代码片段](Other/dai-ma-pian-duan.md)
     * [SDK常见问题](Other/sdkchang-jian-wen-ti.md)
-    * [内存问题](Other/nei-cun-wen-ti.md)
+
     * [网络请求](Other/wang-luo-qing-qiu.md)
     * [新版适配](Other/xin-ban-shi-pei.md)
     * [常用三方库](Other/chang-yong-san-fang-ku.md)

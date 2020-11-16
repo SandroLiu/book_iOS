@@ -25,7 +25,8 @@ KVC要设值，那么就要对象中对应的key，KVC在内部是按什么样�
 
 - 简单来说就是如果没有找到Set<Key>方法的话，会按照_key，_iskey，key，iskey的顺序搜索成员并进行赋值操作。
 如果开发者想让这个类禁用KVC里，那么重写`+ (BOOL)accessInstanceVariablesDirectly`方法让其返回NO即可，这样的话如果KVC没有找到set:属性名时，会直接用`setValue：forUndefinedKey：`方法。
-![](/assets/WechatIMG64975.png)
+
+![](assets/WechatIMG64975.png)
 
 #### KVC 取值
 

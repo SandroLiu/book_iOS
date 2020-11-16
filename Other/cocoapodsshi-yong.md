@@ -19,11 +19,12 @@ inhibit_all_warnings!
 ### [!] Oh no, an error occurred
 - 执行 pod install 时报错
 - 在Error下面有错误原因
-![](/assets/Snip20190123_2.png)
+![](assets/Snip20190123_2.png)
 
 ### target overrides the `ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES`
 
-![](/assets/Snip20200319_1.png)
+![](assets/Snip20200319_1.png)
 
 - 解决办法
-![](/assets/Snip20200319_4.png)
+
+![](assets/Snip20200319_4.png)

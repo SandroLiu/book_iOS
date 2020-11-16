@@ -25,10 +25,22 @@
     * [iOS推送](general_technique/push/README.md)
         * [本地推送](general_technique/push/localnotification.md)
         * [远程推送](general_technique/push/remotenotification.md)
-* [其他](Other/other.md)
+    * [内存管理](general_technique/MemoryManager/README.md)
+* [其他](Other/README.md)
     * [杂记](Other/za-ji.md)
     * [小技巧](Other/xiao-ji-qiao.md)
     * [从哪几个方面学习技术](Other/cong-na-ji-ge-fang-mian-xue-xi-ji-zhu.md)
+    * [Git使用](Other/chapter1.md)
+    * [CocoaPods使用](Other/cocoapodsshi-yong.md)
+    * [常见问题](Other/chang-jian-wen-ti.md)
+    * [代码片段](Other/dai-ma-pian-duan.md)
+    * [SDK常见问题](Other/sdkchang-jian-wen-ti.md)
+    * [内存问题](Other/nei-cun-wen-ti.md)
+    * [网络请求](Other/wang-luo-qing-qiu.md)
+    * [新版适配](Other/xin-ban-shi-pei.md)
+    * [常用三方库](Other/chang-yong-san-fang-ku.md)
+    * [三方库使用问题](Other/san-fang-ku-shi-yong-wen-ti.md)
+    * [swift与OC混合开发](Other/swift_oc_bridge.md)
 
 
 

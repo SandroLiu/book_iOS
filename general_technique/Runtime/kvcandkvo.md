@@ -40,7 +40,8 @@ KVC要设值，那么就要对象中对应的key，KVC在内部是按什么样�
 
 
 - 如果还没有找到，再检查类方法`+ (BOOL)accessInstanceVariablesDirectly`,如果返回YES(默认行为)，那么和先前的设值一样，会按`_,_is,,is`的顺序搜索成员变量名，这里不推荐这么做，因为这样直接访问实例变量破坏了封装性，使代码更脆弱。如果重写了类方法`+ (BOOL)accessInstanceVariablesDirectly`返回NO的话，那么会直接调用`valueForUndefinedKey:`方法，默认是抛出异常。
-![](/assets/WechatIMG64976.png)
+
+![](assets/WechatIMG64976.png)
 
 #### KVC处理集合类型
 - `@avg`， `@count`， `@max`， `@min`，`@sum`

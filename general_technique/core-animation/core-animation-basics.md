@@ -64,7 +64,7 @@ Core Animation 有三种layers 对象的集合，每种集合在layer的内容�
     - render tree Core Animation 私有的，真正执行动画。
     
 layer tree中每个对象都有一个在presentaiton tree 和render tree中匹配的对象。如图1-10。访问layer tree中对象的` presentationLayer`属性可以获取在  presentation tree 中匹配的对象。这样可以获取当前动画值。
-![](../images/Snip20171206_23.png)
+![](images/Snip20171206_23.png)
 
 > 重要：只有当动画运行时才可以访问presentation tree。layer tree 值是动画完成时的值。
 

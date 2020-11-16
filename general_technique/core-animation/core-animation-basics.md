@@ -27,34 +27,34 @@ layer使用`基于点`的坐标系和`单位`坐标系。当指定的属性值�
 大部分情况使用`基于点`的坐标系是指定layer的尺寸和位置。`bounds`指定了layer自身的坐标系和layer在屏幕上的尺寸。`position`属性指定了layer在父坐标系上的位置。`frame`属性是通过`bounds`和`position`属性推导出来的
 
 `bounds`和`frame`的方向依据底层系统，iOS原点在左上角，OS X 在左下角。如图1-3所示
-![](../images/Snip20171206_13.png)
+![](images/Snip20171206_13.png)
 
 如图1-3，position属性在layer的中间。该属性是一系列基于`锚点`的值而定义的属性中的一个。`锚点`值确定了坐标的起始点。
 
 `锚点` 是一系列使用`单位`坐标系中的一个。Core Animation使用`单位`坐标系展示哪些值随着layer的尺寸改变而改变的属性。`单位`坐标系指定总值的百分比，值的范围是0-1。坐标方向如图1-4，依赖具体的系统
-![](../images/Snip20171206_14.png)
+![](images/Snip20171206_14.png)
 
 #### 锚点影响几何上的操作
 
 可以通过layer的锚点属性访问layer上发生的与锚点相关的几何操作。当操作`position`或`transform`属性时`anchor point`的影响更明显
 
 图1-5展示了锚点`anchor point `如何影响`position`属性的
-![](../images/Snip20171206_15.png)
-![](../images/Snip20171206_16.png)
+![](images/Snip20171206_15.png)
+![](images/Snip20171206_16.png)
 
 图1-6展示了`anchor point`如何影响`transform`的
-![](../images/Snip20171206_17.png)
-![](../images/Snip20171206_18.png)
+![](images/Snip20171206_17.png)
+![](images/Snip20171206_18.png)
 
 #### layer可以在3D上被操作
 每个layer有两种`transform`矩阵，可以使用它们操作layer和它的内容。CALayer的`transform`属性定义了想要应用到layer和子layer上的transforms。`sublayerTransform`是操作子layer用的，通常是给一个场景的内容添加一个透明的可视效果时使用。
 
 transfomr通过一个矩阵值乘以坐标值来获得新的坐标值。因为Core Animation可以在三维上操作，每个坐标有4个值，必须乘以一个4x4的矩阵。图1-7表示了Core Animation使用CATransform3D类型的矩阵操作。
-![](../images/Snip20171206_20.png)
+![](images/Snip20171206_20.png)
 一般情况下不需要这么复杂的操作，Core Animation提供了一系列的函数操作transforms。同时Core Animation也提供了key-value支持通过一个key paths修改一个transfomr。详细列表查看 `CATransform3D Key Paths`
 
 图1-8 展示了一些通用的矩阵操作配置。使用 identity transform乘以任何坐标都会得到同样的坐标，对于其他transfomation，如何修改坐标完全依赖于你修改的坐标分量的值。例如沿x轴移动，修改tx分量，而ty和tz设为0。对于旋转，需要提供旋转角度的sin和cos的值
-![](../images/Snip20171206_21.png)
+![](images/Snip20171206_21.png)
 
 #### layer trees 反应了动画状态的不同方面
 

@@ -38,7 +38,7 @@
 - 作者: banchichen 谭真
 - 功能: 图片、视频选择器
 
-## 调试
+## 内存泄露(OOM-Out Of Memary)调试
 
 - MLeaksFinder
 - OOMDetector

@@ -53,5 +53,5 @@
   * [常用三方库](Other/chang-yong-san-fang-ku.md)
   * [三方库使用问题](Other/san-fang-ku-shi-yong-wen-ti.md)
   * [swift与OC混合开发](Other/swift_oc_bridge.md)
-  * [APP功能设计](Other/appgong-neng-she-ji.md)
+  * [APP基础功能设计](Other/appgong-neng-she-ji.md)
 

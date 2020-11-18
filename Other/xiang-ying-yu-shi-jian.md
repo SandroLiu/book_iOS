@@ -26,3 +26,21 @@
     }
     
 ```
+
+3. 查看子视图能否响应，先将坐标点转换到子视图坐标系内，在调用子视图 `hitTest`方法，查看是通过遍历子视图，并且是从后往前遍历，既后添加的子视图先遍历
+
+```objc
+    // 从后往前遍历自己的子控件
+    NSInteger count = self.subviews.count;
+    for (NSInteger i = count - 1; i >= 0; i--) {
+        
+        UIView *childView = self.subviews[i];
+        
+        // 把当前控件上的坐标系转换成子控件上的坐标系
+        CGPoint childP = [self convertPoint:point toView:childView];
+        UIView *fitView = [childView hitTest:childP withEvent:event];
+        if (fitView) {
+            return fitView;
+        }
+    }
+```

@@ -12,5 +12,5 @@
 1. 判断当前控件能否接收事件，满足一下任意一点则不能接收事件
     - userInteractionEnabled 为 NO
     - 控件隐藏
-    - alpha<=0.01
+    - alpha = 0.01
 2. 

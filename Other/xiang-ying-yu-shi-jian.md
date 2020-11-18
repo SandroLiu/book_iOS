@@ -7,7 +7,9 @@
 
 ## 确定响应者
 
-开发者一般关心的是`View`如何确定响应，要判断一个`View`能否响应事件，`UIKit`提供了`命中测试`方法，
+开发者一般关心的是`View`如何确定响应，要判断一个`View`能否响应事件，`UIKit`提供了`命中测试`方发
+
+> \- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event;
 
 1. 判断当前控件能否接收事件，满足一下任意一点则不能接收事件
     - userInteractionEnabled 为 NO

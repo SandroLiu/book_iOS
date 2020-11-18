@@ -44,3 +44,27 @@
         }
     }
 ```
+
+## 应用
+
+正常情况下，如果子视图超出父视图，点击超出部分是不能响应事件的，我们可以通过重写`hiteTest`方法实现点击超出部分也能点击。
+
+```objc
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
+{
+    // 想要实现点击button上的点时交给button处理
+    
+    // 1. 将point转换到button的坐标系
+    CGPoint btnP = [self convertPoint:point toView:self.btn];
+    
+    // 2. 判断btn在不在button上
+    if ([self.btn pointInside:btnP withEvent:event]) {
+        // 点在button上则交给button处理
+        return self.btn;
+    }
+    else
+    {
+        return [super hitTest:point withEvent:event];
+    }
+}
+```

@@ -54,4 +54,5 @@
   * [三方库使用问题](Other/san-fang-ku-shi-yong-wen-ti.md)
   * [swift与OC混合开发](Other/swift_oc_bridge.md)
   * [APP基础功能设计](Other/appgong-neng-she-ji.md)
+  * [响应与事件](Other/xiang-ying-yu-shi-jian.md)
 

@@ -44,10 +44,17 @@ fatal: unable to access 'https://chromium.googlesource.com/webm/libwebp/': Faile
 
 以上错误，网上给出两种解决办法，一种是让终端走代理，一种是修改`libwebp`源，我用的是第二种.
 
-- 修改源
+修改源
 
 ```
  find ~/.cocoapods/repos/master -iname libwebp
 /Users/you_mac_name/.cocoapods/repos/master/Specs/1/9/2/libwebp
 
+```
+修改`libwebp.podspec.json`文件
+
+```
+"git": "https://chromium.googlesource.com/webm/libwebp"
+为
+"git": "https://github.com/webmproject/libwebp"
 ```

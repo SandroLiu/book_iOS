@@ -75,7 +75,11 @@ find ~/.cocoapods/repos/trunk -iname libwebp
 ```
 
 - 参考
+
 <https://www.jianshu.com/p/a0ca0b694ad1>
 
 #### 添加终端代理
 
+<https://github.com/mrdulin/blog/issue>
+<https://juejin.im/post/6844904000135888909>
+<https://juejin.im/post/6844904070788956174>

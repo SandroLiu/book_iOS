@@ -28,3 +28,16 @@ inhibit_all_warnings!
 - 解决办法
 
 ![](assets/Snip20200319_4.png)
+
+### 安装libwebp报错
+
+`cocoapods`安装`SDWebimage`时依赖三方库`libwebp`，默认`libwebp`是在谷歌服务器上的，安装时会报错
+
+```
+[!] Error installing libwebp
+[!] /usr/bin/git clone https://chromium.googlesource.com/webm/libwebp /var/folders/8m/s1m07k7j34d84z93yw6lmj0m0000gp/T/d20200403-87380-8sxq3p --template= --single-branch --depth 1 --branch v1.0.2
+
+Cloning into '/var/folders/8m/s1m07k7j34d84z93yw6lmj0m0000gp/T/d20200403-87380-8sxq3p'...
+fatal: unable to access 'https://chromium.googlesource.com/webm/libwebp/': Failed to connect to chromium.googlesource.com port 443: Operation timed out
+
+```

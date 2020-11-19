@@ -44,7 +44,7 @@ fatal: unable to access 'https://chromium.googlesource.com/webm/libwebp/': Faile
 
 以上错误，网上给出两种解决办法，一种是让终端走代理，一种是修改`libwebp`源，我用的是第二种.
 
-修改源
+#### 修改源
 
 ```
  find ~/.cocoapods/repos/master -iname libwebp
@@ -73,4 +73,6 @@ find ~/.cocoapods/repos/trunk -iname libwebp
 为
 "git": "https://github.com/webmproject/libwebp"
 ```
+
+#### 添加终端代理
 

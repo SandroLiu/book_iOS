@@ -58,3 +58,19 @@ fatal: unable to access 'https://chromium.googlesource.com/webm/libwebp/': Faile
 为
 "git": "https://github.com/webmproject/libwebp"
 ```
+
+cocoapod 1.8之后以上修改可能不管用，需要修改`trunk`下的文件
+
+```
+find ~/.cocoapods/repos/trunk -iname libwebp
+/Users/yuehuig/.cocoapods/repos/trunk/Specs/1/9/2/libwebp
+```
+
+修改`libwebp.podspec.json`文件
+
+```
+"git": "https://chromium.googlesource.com/webm/libwebp"
+为
+"git": "https://github.com/webmproject/libwebp"
+```
+

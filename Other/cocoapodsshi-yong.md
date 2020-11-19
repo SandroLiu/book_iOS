@@ -31,7 +31,7 @@ inhibit_all_warnings!
 
 ### 安装libwebp报错
 
-`cocoapods`安装`SDWebimage`时依赖三方库`libwebp`，默认`libwebp`是在谷歌服务器上的，安装时会报错
+`cocoapods`安装`SDWebimage`时依赖三方库`libwebp`，默认`libwebp`是在谷歌服务器上的，安装时会报错，原因是国内访问不到外网，虽然本机装了翻墙，但是终端好像没用，网上说终端需要单独设置下翻墙，走翻墙软件的代理。
 
 ```
 [!] Error installing libwebp

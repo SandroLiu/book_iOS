@@ -1,4 +1,4 @@
-# 新版iOS适配
+![](/assets/Snip20201202_27.png)# 新版iOS适配
 
 ## iOS 13
 - 修改`UIView`的`frame`属性会调用`- layoutSubviews`方法
@@ -25,3 +25,4 @@ BuildSetting -> VALID_ARCHS 添加x86_64
 ```
 #### 使用自己的SDK，模拟器运行提示缺少ARM64架构
 
+![](/assets/Snip20201202_27.png)

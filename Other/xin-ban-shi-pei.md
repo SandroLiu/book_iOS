@@ -28,3 +28,5 @@ BuildSetting -> VALID_ARCHS 添加x86_64
 ![](/assets/Snip20201202_27.png)
 
 - To do that, navigate to Build Settings of your project and add Any iOS Simulator SDK with value arm64 inside Excluded Architecture.
+
+![](/assets/Snip20201202_28.png)

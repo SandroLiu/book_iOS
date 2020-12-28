@@ -25,6 +25,8 @@
 - 功能: 布局
 
 ## 网络
+- Alamofire
+- AFNetworking
 
 #### Alamofire
 - 功能: 网络请求
@@ -44,9 +46,16 @@
 - OOMDetector
 - FBRetainCycleDetector
 
+## 图片加载
+- SDWebImage
+
 ## 文字处理
 
 ## HUD
+- PKHUD
+
+## JSON
+- HandyJSON
 
 ## 弹窗
 [YsyPopHelperDemo](https://github.com/ysyplay/YsyPopHelperDemo)

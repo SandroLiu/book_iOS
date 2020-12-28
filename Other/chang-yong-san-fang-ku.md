@@ -27,9 +27,7 @@
 - SDWebImage
 
 ### 图片选取器
-#### TZImagePickerController
-- 作者: banchichen 谭真
-- 功能: 图片、视频选择器
+- TZImagePickerController
 
 ### 文字处理
 - BSText

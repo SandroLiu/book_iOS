@@ -13,13 +13,9 @@
 - 功能: UI开发
 
 ### 布局
-
-#### Texture
-- 作者: TextureGroup
-- 功能: UI 布局
-
-#### SnapKit
-- 功能: 布局
+- Texture
+- SnapKit
+- Masonry
 
 ### 下拉刷新
 - MJRefresh
@@ -50,12 +46,11 @@
 
 ### 弹窗
 - MMPopupView
-
-- [YsyPopHelperDemo](https://github.com/ysyplay/YsyPopHelperDemo)
+- YsyPopHelperDemo
 
 ### 键盘
-#### IQKeyboardManagerSwift
-- 功能: 键盘
+- IQKeyboardManagerSwift
+- IQKeyboardManager
 
 ## PromiseKit
 - 作者: mxcl
@@ -65,13 +60,8 @@
 - Alamofire
 - AFNetworking
 
-#### Alamofire
-- 功能: 网络请求
-
 ## JSON
 - HandyJSON
-
-
 
 ## 性能
 

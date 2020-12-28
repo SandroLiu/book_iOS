@@ -50,6 +50,8 @@
 - IQKeyboardManagerSwift
 - IQKeyboardManager
 
+## 响应式
+- RxSwift
 ## PromiseKit
 - 作者: mxcl
 - 功能: 异步回调
@@ -64,7 +66,6 @@
 ## 性能
 
 ### 内存泄露(OOM-Out Of Memary)调试
-
 - MLeaksFinder
 - OOMDetector
 - FBRetainCycleDetector
